@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Ejercicio1</title>
+</head>
+<body>
+  <h1>Formulario</h1>
+  <form action="">
+      Escribe tu Nombre
+    <input class="all" type="nombre" id="nombre" name="nombre" required>
+      <br><br>
+      Escribe tu Apellido
+    <input class="all" type="apellido" id="apellido" name="apellido" required>
+      <br><br>
+      Escribe tu Dni
+    <input class="all" type="dni" id="dni" name="dni" pattern=".{8,}" required>
+      <br><br>
+      Escribe tu direccion
+    <input class="all" type="direccion"  id="direccion" name="direccion" required>
+      <br><br>
+      <button type="submit" onclick="mostrardatos()">Enviar Datos</button>
+
+      <div id="form"></div>
+
+  </form>
+  <script type="text/javascript" src="asset/javascript.js"></script>
+</body>
+</html>
